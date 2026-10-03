@@ -1,0 +1,6 @@
+node_modules/
+package-lock.json
+*.db
+.env
+firebase-service-account.json
+uploads/

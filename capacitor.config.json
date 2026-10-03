@@ -1,0 +1,22 @@
+{
+  "appId": "com.sentria.samadhan",
+  "appName": "Sentria Samadhan",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https",
+    "allowNavigation": [
+      "sentria-samadhan-backend.onrender.com",
+      "*.googleapis.com",
+      "*.firebaseapp.com",
+      "*.openstreetmap.org"
+    ]
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": true,
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": false,
+      "backgroundColor": "#064e3b"
+    }
+  }
+}
